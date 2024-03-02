@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main-div{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul a{
+    text-decoration: none;
+    color: #000;
+    margin-inline: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#nav-part1 h2{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#nav-part h3{
+    font-size: 23;
+    font-weight: 600;
+}
+
+#contant{
+    margin-top: 80px;
+    padding: 50px 65px; 
+}
+
+#contant h3{
+    font-size: 30px;
+}
+
+#contant h1{
+    font-size: 110px;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: -4px;
+    word-spacing: 5px;
+}
+
+#case{
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+#case h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#case h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#line{
+    height: 3px;
+    width: 100px;
+    background-color: #000;  
+}
+
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#project{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+.head-part1 h2{
+    font-weight: 600;
+}
+
+.head-part1 h4{
+    font-weight: 400;
+}
+
+.head-part2 h4{
+    font-weight: 400;
+}
+
+#arrow{
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#sec-arrow{
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#detail{
+    width: 100%;
+    height: 70%;
+    background-color: #333;
+    padding: 40px 50px;
+}
+
+#info h1{
+    color: white;
+    font-size: 60px;
+}
+
+#info h3{
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+#pad{
+    padding: 50px 0px;
+}
+
+#phone{
+    display: flex;
+    color: white;
+}
+
+#phone h4{
+    gap: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#phone1{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+
+#phone1 h4{
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#phone2{
+    display: flex;
+    color: white;
+    padding: 10px 0px;
+}
+
+#phone2 h4{
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
